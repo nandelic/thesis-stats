@@ -2,7 +2,7 @@ library(lessR)
 library(lme4)
 library(car)
 
-mydata <- Read("C:\\Users\\Nicole\\Documents\\Work\\Chapter 4 Stuff\\Longform_Emo.csv")
+mydata <- read.csv("C:/Users/Nicole/Documents/Work/Study 3 - Emotion Recognition/study3_sample.csv")
 
 #run full model
 amdlfull = lmer(Arousal ~ AdviceType + Role + LabourType + InitiationReaction + (1|Recording) + (1|Turn) + (1|Speaker) + (1|Valence), data=mydata)
