@@ -13,3 +13,6 @@ g4
 
 g5 <- ggplot(mydata, aes(Referral, ..count..)) + geom_bar(aes(fill = AdviceType), position = "dodge") + scale_fill_grey()
 g5
+
+g6 <- ggplot(mydata, aes(Fail18months, ..count..)) + geom_bar(aes(fill = Referral), position = "dodge") + scale_fill_grey()
+g6
