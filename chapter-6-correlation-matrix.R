@@ -35,3 +35,7 @@ cr(AccExt, MHScore)
 cr(IVARecall, Attitudes)
 cr(Attitudes, MHScore)
 cr(IVARecall, MHScore)
+
+#Carried out chi-square test on advice type and outcome
+mytable <- table(AdviceMode,Outcome)
+chisq.test(mytable)
