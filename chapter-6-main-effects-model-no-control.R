@@ -1,7 +1,7 @@
 library(MASS)
 library(aod)
 
-#Carrying out analysis on all 86 participants
+#Carrying out analysis on all participants
 #Reading data
 mydata2 <- read.csv("C:/Users/Nicole/Documents/Work/Study 4 - Trust Survey/Analysis in R/sample83.csv")
 
